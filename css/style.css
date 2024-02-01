@@ -34,6 +34,26 @@ body{
     font-size: 1rem;
 }
 
+/* <<<<<<<< Custom Style >>>>>>>> */
+.wrapper_title{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.title{
+    font-family: var(--font-black);
+    font-size: 2.2rem;
+    color: var(--color-navy-blue);
+}
+.desc{
+display: block;
+margin-top: 0.5rem;
+font-size: 0.9rem;
+color: var(--color-black-50);
+}
+
+/* <<<<<<<< Custom Style >>>>>>>> */
+
 /* <<<<<<<< Style Header>>>>>>>> */
 .header{
     display: block;
@@ -191,6 +211,12 @@ align-items: center;
 /* <<<<<<<< End navbar-responsive Style>>>>>>>> */
 
 /* <<<<<<<< Style Header>>>>>>>> */
+
+/* <<<<<<<< Main Header>>>>>>>> */
+/* <<<<<<<<  >>>>>>>> */
+/* <<<<<<<<  >>>>>>>> */
+
+/* <<<<<<<< Main Header>>>>>>>> */
 
 
 
