@@ -26,7 +26,40 @@
         }
     ]
 
+    const projects = [
+        {
+            id:1,
+            image:"/assets/images/p-1.jpg",
+            title:'پروژه شماره یک'
+        },
+        {
+            id:2,
+            image:"/assets/images/p-2.jpg",
+            title:'پروژه شماره دو'
+        },
+        {
+            id:3,
+            image:"/assets/images/p-3.jpg",
+            title:'پروژه شماره سه'
+        },
+        {
+            id:4,
+            image:"/assets/images/p-1.jpg",
+            title:'پروژه شماره چهار'
+        },
+        {
+            id:5,
+            image:"/assets/images/p-5.jpg",
+            title:'پروژه شماره پنج'
+        },
+        {
+            id:6,
+            image:"/assets/images/p-6.jpg",
+            title:'پروژه شماره شش'
+        },
+    ]
 
     export {
-        services
+        services,
+        projects
     }

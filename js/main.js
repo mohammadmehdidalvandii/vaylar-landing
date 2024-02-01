@@ -1,5 +1,6 @@
 let servicesContainer = document.querySelector('#services_wrapper');
-import { services } from "../data/db.js";
+let ProjectContainer = document.querySelector('#wrapper_project');
+import { services, projects } from "../data/db.js";
 
 // Start Section services
 let dataServices =services
@@ -22,6 +23,32 @@ function showItemDom (dataServices){
 }
 // End Section services
 
+// Start Section Projects
+let dataProjects = projects
+
+showProjectDom(dataProjects)
+
+function showProjectDom (dataProjects){
+    console.log(dataProjects);
+ProjectContainer.innerHTML = '';
+dataProjects.forEach(project=>{
+    ProjectContainer.insertAdjacentHTML("beforeend", `
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <a href="#" class="project_card">
+        <img src=${project.image} alt="project" class="project_card_img">
+        <div class="project_card_content">
+            <h6 class="project_card_title">${project.title}</h6>
+            <p class="project_card_text">جهت مشاهده کلیک کنید</p>
+        </div>
+    </a>
+</div>
+    `)
+})
+}
+
+// End Section Projects
+
 export {
-    showItemDom
+    showItemDom,
+    showProjectDom
 }

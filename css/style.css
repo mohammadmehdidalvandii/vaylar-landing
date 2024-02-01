@@ -283,6 +283,7 @@ font-size:0.9rem;
     text-decoration: none;
     position: relative;
     width: 100%;
+    margin-bottom: 1rem;
     transition: all 0.4s linear;
 }
 .project_card:hover .project_card_content{
@@ -297,14 +298,14 @@ display: block;
 bottom: 0.5rem;
 position: absolute;
 text-align: center;
-background-color:rgba(0, 0 ,0 ,0.3);
+background-color:rgba(0, 0 ,0 ,0.7);
 padding: 0.5rem;    
 opacity: 0;
 transition: all 0.4s linear;
 }
 .project_card_title{
     font-size: 1rem;
-    color: var(--color-black-25);
+    color: var(--color-white);
 }
 .project_card_text{
     margin-top: 0.3rem;
