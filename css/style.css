@@ -1,0 +1,38 @@
+/* <<<<<<<< Import File Css>>>>>>>> */
+@import url(/css/reset.css);
+
+/* <<<<<<<< Import File Font>>>>>>>> */
+@font-face {
+    font-family: iranBold;
+    src: url(../font/IRANSansWeb_Bold.ttf);
+}
+@font-face {
+    font-family: iranBlack;
+    src: url(../font/IRANSansWeb_Black.ttf);
+}
+
+/* <<<<<<<< root => Variable >>>>>>>> */
+:root{
+    --font-bold: iranBold;
+    --font-black: iranBlack;
+
+    --color-white: #FFFFFF;
+    --color-black: #212121;
+    --color-black-50: #37474F;
+    --color-black-25:#334155;
+    --color-navy-blue: #1F2937;
+    --color-yellow: #FACC15;
+}
+
+/* <<<<<<<< Body Style >>>>>>>> */
+body{
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-bold);
+    font-size: 1rem;
+}
+
+/* <<<<<<<<>>>>>>>> */
+/* <<<<<<<<>>>>>>>> */
