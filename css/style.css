@@ -230,15 +230,15 @@ align-items: center;
     display: block;
     width: 100%;
     padding: 2rem;
+    margin-bottom: 1.5rem;
     background-color: var(--color-white);
     border-radius: 0.5rem;
 }
 .services_card_icon{
 display: block;
 text-align: center;
-}
-.services_card_icon .fa{
-    font-size: 1.7rem;
+margin: 0 auto;
+width: 50px;
 }
 .services_card_title{
     display: block;
