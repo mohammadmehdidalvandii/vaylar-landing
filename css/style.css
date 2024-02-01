@@ -137,18 +137,14 @@ align-items: center;
     font-size: 1.8rem;
 }
 .items_wrapper{
-    display: none;
     position: absolute;
     top: 5rem;
     padding: 1rem;
     width: 900px;
     background-color:var(--color-white);
 }
-.isActive{
-    display: block;
-}
-.NotActive{
-    display: block;
+.notActive{
+    display: none;
 }
 .navbarRes_items{
     display: block;
