@@ -16,6 +16,7 @@
     --font-bold: iranBold;
     --font-black: iranBlack;
 
+    --color-bgColor: #F8FAFC;
     --color-white: #FFFFFF;
     --color-black: #212121;
     --color-black-50: #37474F;
@@ -212,11 +213,50 @@ align-items: center;
 
 /* <<<<<<<< Style Header>>>>>>>> */
 
-/* <<<<<<<< Main Header>>>>>>>> */
-/* <<<<<<<<  >>>>>>>> */
-/* <<<<<<<<  >>>>>>>> */
+/* <<<<<<<< Main Style >>>>>>>> */
+.main{
+    display: block;
+    width: 100%;
+    background-color: var(--color-bgColor);
+    padding: 3rem 0;
+}
+/* <<<<<<<< Section Style services >>>>>>>> */
+.services{
+    display: block;
+    width: 100%;
+    margin: 2rem 0;
+}
+.services_card{
+    display: block;
+    width: 100%;
+    padding: 2rem;
+    background-color: var(--color-white);
+    border-radius: 0.5rem;
+}
+.services_card_icon{
+display: block;
+text-align: center;
+}
+.services_card_icon .fa{
+    font-size: 1.7rem;
+}
+.services_card_title{
+    display: block;
+    text-align: center;
+    margin: 1rem 0;
+    font-family: var(--font-black);
+    font-size: 1.3rem;
+    color: var(--color-black-25);
+}
+.services_card_desc{
+    display: block;
+    width: 100%;
+    font-size: 0.9rem;
+    color: var(--color-black-50);
+}
+/* <<<<<<<< Section Style services >>>>>>>> */
 
-/* <<<<<<<< Main Header>>>>>>>> */
+/* <<<<<<<< Main Style >>>>>>>> */
 
 
 
