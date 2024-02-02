@@ -314,6 +314,28 @@ transition: all 0.4s linear;
 }
 /* <<<<<<<< Section Style Project >>>>>>>> */
 
+/* <<<<<<<< Section Style About >>>>>>>> */
+.about{
+    display: block;
+    width: 100%;
+    background-color: var(--color-bgColor);
+    padding: 4rem 0;
+}
+.about_img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.about_content{
+    display: block;
+    width: 100%;
+}
+.about_desc{
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--color-black-25);
+}
+/* <<<<<<<< Section Style About >>>>>>>> */
+
 /* <<<<<<<< Main Style >>>>>>>> */
 
 
