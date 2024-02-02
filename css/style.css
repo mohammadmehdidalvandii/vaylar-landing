@@ -336,6 +336,52 @@ transition: all 0.4s linear;
 }
 /* <<<<<<<< Section Style About >>>>>>>> */
 
+/* <<<<<<<< Section Style Comments >>>>>>>> */
+.comments{
+    display: block;
+    width: 100%;
+    padding: 4rem 0;
+    background-color: var(--color-bgColor);
+}
+.comment_card{
+    display: block;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    max-width: 900px;
+    background-color: var(--color-white);
+    border-radius: 1rem;
+}
+.comment_card_text{
+    display: block;
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--color-black-50);
+}
+.comment_card_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.comment_card_img{
+width: 120px;
+border-radius: 50%;
+}
+.comment_card_infoContent{
+    display: block;
+    margin-right: 1rem;
+}
+.comment_card_name{
+    font-size: 1rem;
+    color: var(--color-black);
+}
+.comment_card_job{
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--color-black-25);
+}
+/* <<<<<<<< Section Style Comments >>>>>>>> */
+
 /* <<<<<<<< Main Style >>>>>>>> */
 
 
