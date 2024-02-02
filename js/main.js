@@ -1,7 +1,8 @@
 let servicesContainer = document.querySelector('#services_wrapper');
 let ProjectContainer = document.querySelector('#wrapper_project');
 let aboutContainer = document.querySelector(".swiper-wrapper")
-import { services, projects, comments } from "../data/db.js";
+let articleContainer = document.querySelector('#wrapper_article')
+import { services, projects, comments, articles } from "../data/db.js";
 
 // Start Section services
 let dataServices =services
@@ -30,7 +31,6 @@ let dataProjects = projects
 showProjectDom(dataProjects)
 
 function showProjectDom (dataProjects){
-    console.log(dataProjects);
 ProjectContainer.innerHTML = '';
 dataProjects.forEach(project=>{
     ProjectContainer.insertAdjacentHTML("beforeend", `
@@ -89,8 +89,42 @@ function showCommentToDOM (){
 }
 // End Section About
 
+// End Section Articles
+let dataArticles = articles
+
+showArticleToDom(dataArticles)
+
+function showArticleToDom (dataArticles){
+  articleContainer.innerHTML ="";
+  dataArticles.forEach(article => {
+    articleContainer.insertAdjacentHTML("beforeend", `
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="article_card">
+        <div class="article_card_textImg">
+          <img
+            src=${article.image}
+            alt="article-image"
+            class="article_card_img"
+          />
+          <span class="article_card_text">${article.category}</span>
+        </div>
+        <div class="article_card_content">
+          <h6 class="article_card_title">${article.title}</h6>
+          <p class="article_card_desc">
+          ${article.desc}
+          </p>
+          <a href="#" class="article_card_link">مشاهده بیشتر</a>
+        </div>
+      </div>
+    </div
+      `)
+  })
+}
+// End Section Articles
+
 export {
     showItemDom,
     showProjectDom,
-    showCommentToDOM
+    showCommentToDOM,
+    showArticleToDom
 }
