@@ -10,6 +10,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
+    <!-- <<<<<<<< Link Css Swiper>>>>>>>> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <!-- <<<<<<<< Link Css Style>>>>>>>> -->
     <link rel="stylesheet" href="/css/style.css" />
     <title>VAYLAR</title>
@@ -222,7 +227,6 @@
                   حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای
                   موجود طراحی اساسا مورد استفاده قرار گیرد.
                 </p>
-
               </div>
             </div>
           </div>
@@ -231,41 +235,57 @@
       <!-- ******************* Main Section About ********************* -->
 
       <!-- ******************* Main Section Comments ********************* -->
-        <section class="comments">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                          <div class="wrapper_title">
-                                    <h3 class="title">نظرات کاربران</h3>
-                                    <p class="desc">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
-                          </div> 
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-12">
-                        <div class="comment_card">
-                            <p class="comment_card_text">
-                                
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
-                                
-                            </p>
-                            <div class="comment_card_info">
-                                <img src="/assets/images/avatar-1.jpg" alt="user image" class="comment_card_img">
-                                <div class="comment_card_infoContent">
-                                    <h6 class="comment_card_name">علی رضا ناصری</h6>
-                                    <span class="comment_card_job">طراح گراقیک</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <section class="comments">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="wrapper_title">
+                <h3 class="title">نظرات کاربران</h3>
+                <p class="desc">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                </p>
+              </div>
             </div>
-        </section>
+          </div>
+          <div class="row mt-4" id="wrapper_about">
+            <div class="col-12">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper"> 
+                  <!-- <div class="swiper-slide">
+                    <div class="comment_card">
+                      <p class="comment_card_text">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                        چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون
+                        بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                        برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
+                        هدف بهبود ابزارهای کاربردی می باشد
+                      </p>
+                      <div class="comment_card_info">
+                        <img
+                          src="/assets/images/avatar-1.jpg"
+                          alt="user image"
+                          class="comment_card_img"
+                        />
+                        <div class="comment_card_infoContent">
+                          <h6 class="comment_card_name">علی رضا ناصری</h6>
+                          <span class="comment_card_job">طراح گراقیک</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- ******************* Main Section Comments ********************* -->
     </main>
     <!-- ************************ Main Responsive******************** -->
     <!-- *********************** Link File Javascript  ********************* -->
     <script src="/js/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="/js/app.js" type="module"></script>
   </body>
 </html>
